@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: https://appbrew.com/changelog
+scheme: date-based
+note: >-
+  Appbrew publishes a dated "What's New" product changelog at
+  https://appbrew.com/changelog. It uses a Month Day, Year date scheme with no
+  semantic version numbers. The page is thin (product-level release notes, not
+  an API changelog — Appbrew ships no public developer API). Only the most
+  recent published entry is captured below; the live page is the source of truth.
+current_version: null
+entries:
+- date: '2025-09-10'
+  title: Enhanced Shopify Search + Stability Fixes
+  breaking: false
+  additions: false
+  highlights:
+  - Improved Shopify search within the app
+  - Fixed product metafields loading issues
+  - General stability fixes

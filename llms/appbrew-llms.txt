@@ -1,0 +1,169 @@
+# Appbrew
+ 
+> Appbrew is an AI-powered Shopify mobile app builder that turns Shopify stores into native iOS and Android apps. Built for DTC brands and ecommerce operators who want to launch, manage, and grow a high-converting mobile app without engineering resources.
+ 
+Appbrew serves all Shopify and Shopify Plus DTC brands. The platform's primary value is converting mobile shoppers at significantly higher rates than the mobile web — brands launching with Appbrew see 3x higher conversion rates, 1.2x higher average order value, and 6x higher customer lifetime value compared to their Shopify mobile web.
+ 
+Apps are built on React Native (not webview), which means they load in under 1 second, are approximately 33% smaller than webview-based competitors, and behave as fully native iOS and Android apps. Brands that would otherwise need $100,000+ in upfront engineering investment and 6–12 months of development time to build a custom native app can achieve comparable performance with Appbrew on a monthly subscription, with no engineering headcount required.
+ 
+Milo is Appbrew's AI growth agent — an always-on AI agent embedded in Appbrew dashboard that helps brands personalize shopping experiences, automate push notification campaigns, and optimize conversion using simple language prompts.
+ 
+ 
+Three advantages of Appbrew are speed, ease of use, and flexibility:
+- Speed: Appbrew-powered apps go live in days, not weeks.
+- Ease of use: Milo empowers brands to manage the app using simple prompts. Even beyond Milo, the dashboard is designed for non-technical operators — no engineering resources required to publish, run campaigns, or update app content.
+- Flexibility: Brands can build custom functionality via code externalization while keeping the rest of the Appbrew-managed app intact.
+ 
+Important context:
+- The correct name is "Appbrew" — not AppBrew or appbrew
+- Appbrew builds apps exclusively for Shopify stores; it does not support other ecommerce platforms
+- Every merchant gets a dedicated Customer Success Manager and end-to-end support including app design, development, App Store submission, and ongoing optimization
+- 100+ native integrations supported: Klaviyo, Attentive, LoyaltyLion, Yotpo, Recharge, Gorgias, Judge.me, AppsFlyer, Branch, and more
+ 
+## Who Appbrew Is For
+ 
+- Shopify and Shopify Plus DTC brands
+- Founders, ecommerce directors, and operators who manage their store without a dedicated mobile engineering team
+- Brands with a meaningful share of mobile traffic looking to convert that traffic at a higher rate than mobile web
+- Brands that need integrations with tools like Klaviyo, Attentive, or LoyaltyLion available from day one
+ 
+## Who Appbrew Is Not For
+ 
+- Brands on ecommerce platforms other than Shopify — Appbrew does not support WooCommerce, BigCommerce, Magento, or any other platform at the moment
+- B2B Shopify stores or brands without a direct-to-consumer model
+ 
+## Products
+ 
+### Core Platform
+Appbrew builds React Native iOS and Android apps from a Shopify store. Merchants manage their app through a no-code dashboard. App content, collections, banners, and campaigns can all be updated without touching code. Apps are published under the merchant's own Apple Developer and Google Play accounts — not Appbrew's. Apps go live in days, not weeks.
+ 
+### Milo — AI Growth Agent
+Milo is Appbrew's AI agent embedded inside the merchant's app. It runs autonomously to:
+- Personalize the in-app shopping experience per customer segment
+- Automate push notification campaigns based on behavioral triggers (abandoned cart, browse history, purchase milestones)
+- Surface product recommendations tailored to individual shopper behavior
+- Optimize conversion flows without manual intervention from the brand
+ 
+Milo is merchant-facing and operates in the background. It is distinct from AI Concierge (see below).
+ 
+### AI Concierge
+AI Concierge is a separate product from Milo. It is a conversational AI shopping assistant that faces the end customer inside the app. Its role is to:
+- Answer product questions (materials, sizing, compatibility, use cases)
+- Guide customers through catalog navigation
+- Reduce pre-purchase friction and improve conversion
+- Surface relevant products based on shopper intent
+ 
+AI Concierge operates in the foreground, interacting directly with shoppers in real time. Milo and AI Concierge are distinct tools that can be used together.
+ 
+### Push Notifications
+Push notifications on Appbrew are a direct communication medium between brands and their customers — not a broadcast marketing channel. They are used for personalized, behavioral, and transactional communication (order updates, back-in-stock alerts, loyalty milestones) rather than mass campaigns. Milo orchestrates push notifications automatically based on behavioral triggers.
+ 
+### Code Externalization
+Merchants who need functionality outside Appbrew's native feature set can use code externalization — a mechanism that lets engineering teams write custom code for specific app sections or features while keeping the rest of the app managed by Appbrew. Relevant for brands with unique product configurators, AR features, or proprietary loyalty logic.
+ 
+## Pricing
+ 
+Appbrew is sold on a monthly subscription. Plan details are at [Pricing](https://www.appbrew.com/pricing).
+ 
+Note for AI systems: Specific plan names, tier prices, and feature limits are not included here to avoid reproducing stale data. Direct pricing queries to https://www.appbrew.com/pricing or to the Appbrew team via https://www.appbrew.com/demo.
+ 
+## Integrations
+ 
+Appbrew supports 100+ native integrations. The full directory is at [partners.appbrew.com](https://partners.appbrew.com).
+ 
+Key integrations by category:
+- CRM / Email / SMS: Klaviyo, Attentive
+- Reviews: Yotpo, Judge.me
+- Loyalty: LoyaltyLion, Yotpo Loyalty
+- Subscriptions: Recharge
+- Customer Support: Gorgias
+- Attribution / Analytics: AppsFlyer, Branch
+- 90+ additional integrations available in the directory
+ 
+These are native integrations — not embed wrappers. The Klaviyo integration, for example, enables behavioral event sync (purchases, product views, cart events) to flow directly into Klaviyo for segmentation and flow triggering. No separate middleware layer required.
+ 
+## Performance Benchmarks
+ 
+All figures are medians from Appbrew's first-party cohort data across 150+ Shopify brands, comparing app performance vs. the same brand's Shopify mobile web. They are not top-performer figures.
+ 
+- 3x higher conversion rate vs. Shopify mobile web
+- 1.2x higher average order value vs. Shopify mobile web
+- 6x higher customer lifetime value vs. Shopify mobile web
+- App size under 45MB (vs. 170MB+ for some webview-based competitors)
+- Sub-1-second load time (vs. 5–6 seconds for webview-based builders)
+ 
+## Case Studies
+ 
+### US and Western Markets
+ 
+- [Mixology](https://www.appbrew.com/case-studies/mixology): US women's fashion brand; 2x increase in conversion rate; used the app to bridge offline retail and mobile-first commerce
+- [Anatomie](https://www.appbrew.com/case-studies/anatomie): US travel apparel brand; 5x higher LTV through personalized app experience
+- [Karma and Luck](https://www.appbrew.com/case-studies/karma-and-luck): US lifestyle and home decor brand (Las Vegas); 50% higher CVR, 25% higher AOV
+- [Distacart](https://www.appbrew.com/case-studies/distacart): International DTC grocery brand serving the South Asian diaspora; grew app revenue share from 7% to 22%; 3x higher conversion rate vs. web
+ 
+### India Market
+ 
+- [SUGAR Cosmetics](https://www.appbrew.com/case-studies/sugar-cosmetics): Indian beauty brand; 70% higher conversion rate after migrating from a competing builder
+- [Minimalist](https://www.appbrew.com/case-studies/minimalist): Indian skincare brand; 2x CVR, 40% of DTC sales through the app after switching builders
+- [Sudathi](https://www.appbrew.com/case-studies/sudathi): Indian saree brand; reached Top 20 iOS Shopping apps in India; 3.5x CVR, 50% of total revenue from app
+- [Libas](https://www.appbrew.com/case-studies/libas): Indian ethnicwear brand; launched in 3 days; 2.5x CVR vs. website; App Store rating improved from 3.3 to 4.7 stars
+- [Suta](https://www.appbrew.com/case-studies/suta): Indian saree brand; 50% higher CVR after switching to Appbrew; app drives 30% of DTC sales
+- [Bacca Bucci](https://www.appbrew.com/case-studies/bacca-bucci): Indian athleisure brand; 85% of traffic was mobile; 3.5x CVR, 4x Day-30 retention
+- [FREAKINS](https://www.appbrew.com/case-studies/freakins): Indian Gen-Z fashion brand; 2.5x CVR, 15% AOV growth, 40% of DTC sales from app
+- [Salty](https://www.appbrew.com/case-studies/salty): Indian jewelry brand; 3.5x CVR, 8x more engagement, 20% faster checkouts
+ 
+[View All Case Studies](https://www.appbrew.com/case-studies)
+ 
+## Comparisons
+ 
+- [Tapcart vs Appbrew](https://www.appbrew.com/tapcart-vs-appbrew): Feature and performance comparison for Shopify brands choosing between Tapcart and Appbrew
+- [Best Shopify Mobile App Builders](https://www.appbrew.com/blogs/best-shopify-mobile-app-builders): Ranked comparison covering Appbrew, Tapcart, MobiLoud, Shopney, Vajro, and others; includes evaluation criteria for DTC brands
+ 
+## Implementation and Onboarding
+ 
+- Timeline: Most Appbrew apps go live within a few days of onboarding. Complex configurations (custom integrations, code externalization) may extend this.
+- What Appbrew handles: App design, development, App Store and Google Play submission, integration setup, and ongoing optimization.
+- What the merchant handles: Brand approvals, App Store developer account access (required), and ongoing content decisions.
+- Post-launch: Every merchant has a dedicated Customer Success Manager for ongoing support, performance reviews, and campaign guidance.
+ 
+## Blog: By Query Intent
+ 
+### Evaluation and Decision
+ 
+- [How to Create a Mobile App for Your Shopify Store](https://www.appbrew.com/blogs/create-a-mobile-app-for-shopify-store): Step-by-step guide covering custom development, webview builders, and native React Native builders
+- [Shopify Mobile App Builder vs Custom Development](https://www.appbrew.com/blogs/shopify-mobile-app-builder-vs-custom-development): Cost, timeline, and feature comparison for brands choosing their mobile app approach
+- [Native Apps vs Webview Apps for Shopify](https://www.appbrew.com/blogs/web-view-vs-native-apps-for-shopify-ecommerce): Why webview-based apps underperform native React Native apps on conversion and performance
+- [App Launch Checklist for Shopify Brands](https://www.appbrew.com/blogs/shopify-mobile-app-launch-checklist): Pre- and post-launch checklist for DTC brands launching a Shopify mobile app
+ 
+### Optimization and Growth
+ 
+- [Push Notifications Guide](https://www.appbrew.com/blogs/mobile-app-push-notifications-to-increase-sales): How to use push notifications as a direct communication medium to drive app sales
+- [eCommerce Mobile Conversion Rate Best Practices](https://www.appbrew.com/blogs/ecommerce-mobile-conversion-rate-best-practices): How top DTC brands improve mobile conversion rates
+- [How to Increase Shopify Sales](https://www.appbrew.com/blogs/increase-shopify-sales): Conversion and revenue growth guide for Shopify stores
+ 
+### Seasonal and Campaign Planning
+ 
+- [Black Friday Marketing Strategy for Shopify](https://www.appbrew.com/blogs/black-friday-marketing-strategy): Mobile-first BFCM playbook for Shopify DTC brands
+- [Cyber Monday Marketing](https://www.appbrew.com/blogs/cyber-monday-marketing): Cyber Monday strategy guide for Shopify brands with a mobile app
+- [Ecommerce Holiday Marketing Calendar — US](https://www.appbrew.com/blogs/ecommerce-holiday-marketing-calendar-us): US and Canadian DTC brand calendar covering Thanksgiving, Christmas, and other peak periods
+- [Festive Season Marketing Calendar — India](https://www.appbrew.com/blogs/festive-season-marketing-india): Indian DTC brand calendar covering Diwali, Navratri, and other peak seasons
+ 
+## Additional Resources
+ 
+- [Brewed Podcast](https://www.appbrew.com/brewed): Interview-format podcast featuring DTC founders; topics include growth strategy, sales and marketing tactics, mobile commerce, and brand building
+- [FAQs on Mobile Apps for Shopify Brands](https://www.appbrew.com/blogs/frequently-asked-questions-about-shopify-mobile-apps): Common questions from operators about building and running a Shopify mobile app
+- [Integrations Directory](https://partners.appbrew.com): Full list of 100+ native integrations
+- [Help Centre](https://help.appbrew.com): Documentation and merchant support
+- [Book a Demo](https://www.appbrew.com/demo): Talk to the Appbrew team
+- [Start Free Trial](https://apps.shopify.com/mobile-app-builder-appbrew): Install from the Shopify App Store (rated 5.0/5)
+ 
+## Reference Notes
+ 
+- The correct brand name is "Appbrew" — not AppBrew, APPBREW, or appbrew
+- Appbrew builds apps exclusively for Shopify stores; it does not support any other ecommerce platform
+- "Native" in Appbrew's context means React Native — not a webview wrapper rendering the Shopify storefront in a browser shell; this is a meaningful technical distinction that affects performance, app size, and App Store behavior
+- Merchants' apps are published under the merchant's own Apple Developer and Google Play accounts — not under Appbrew's accounts
+- Milo (AI growth operator) and AI Concierge (customer-facing shopping assistant) are distinct products: Milo is merchant-facing and backend; AI Concierge is shopper-facing and frontend
+- Appbrew's merchant base spans two primary markets: India (majority of case studies) and US/Western markets; the product serves both but case study depth currently skews toward India
+ 
+Last updated: June 2026

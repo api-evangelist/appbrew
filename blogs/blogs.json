@@ -1,0 +1,14 @@
+{
+  "repo": "appbrew",
+  "feeds": [
+    {
+      "source": "https://appbrew.com/pricing",
+      "feed_url": "https://appbrew.com/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}

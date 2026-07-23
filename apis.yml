@@ -1,8 +1,25 @@
 aid: appbrew
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appbrew.png
 name: Appbrew
-description: 'Appbrew is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Appbrew is an AI-powered Shopify mobile app builder that turns Shopify and Shopify
+  Plus stores into fully native React Native iOS and Android apps for DTC and ecommerce brands,
+  with no engineering headcount required. Merchants manage the app through a no-code dashboard,
+  publish under their own Apple Developer and Google Play accounts, and grow with Milo (an AI
+  growth agent that personalizes experiences and automates push-notification campaigns) and AI
+  Concierge (a shopper-facing conversational assistant). The platform supports 100+ native
+  integrations (Klaviyo, Attentive, LoyaltyLion, Yotpo, Recharge, Gorgias, AppsFlyer, Branch)
+  and code externalization for custom functionality. Backed by Accel; sector: ecommerce.'
 url: https://raw.githubusercontent.com/api-evangelist/appbrew/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +33,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Ecommerce
+- Shopify
+- Mobile Apps
+- Mobile Commerce
+- App Builder
+- DTC
+- React Native
+- Push Notifications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://appbrew.tech/
+  url: https://appbrew.com/
+- type: Documentation
+  url: https://help.appbrew.com/
+- type: Support
+  url: https://help.appbrew.com/
+- type: Pricing
+  url: https://appbrew.com/pricing
+- type: Blog
+  url: https://appbrew.com/blogs
+- type: PrivacyPolicy
+  url: https://appbrew.com/privacy-policy
+- type: TermsOfService
+  url: https://appbrew.com/terms-of-use
+- type: SignUp
+  url: https://apps.shopify.com/mobile-app-builder-appbrew
+- type: Integrations
+  url: https://partners.appbrew.com/
+- type: LLMsTxt
+  url: llms/appbrew-llms.txt
+- type: ChangeLog
+  url: changelog/appbrew-changelog.yml
+- type: DomainSecurity
+  url: security/appbrew-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,26 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of /.well-known/ discovery surface
+note: >-
+  No /.well-known/ discovery documents are published. Appbrew is a managed
+  Shopify mobile-app-builder SaaS with no public developer API surface, so
+  OIDC/OAuth/api-catalog discovery is not expected. A machine-readable
+  /llms.txt IS published at the site root (see llms/appbrew-llms.txt) but it
+  is served from / not /.well-known/.
+hosts:
+- host: https://appbrew.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://help.appbrew.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
