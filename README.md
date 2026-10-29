@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Appbrew is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment pipeline.
+Appbrew is an AI-powered Shopify mobile app builder that turns Shopify and Shopify Plus stores into fully native React Native iOS and Android apps for DTC and ecommerce brands, with no engineering headcount required. Merchants manage the app through a no-code dashboard, publish under their own Apple Developer and Google Play accounts, and grow with Milo (an AI growth agent that personalizes experiences and automates push-notification campaigns) and AI Concierge (a shopper-facing conversational assistant). The platform supports 100+ native integrations (Klaviyo, Attentive, LoyaltyLion, Yotpo, Recharge, Gorgias, AppsFlyer, Branch) and code externalization for custom functionality. Backed by Accel; sector: ecommerce.
 
-Backed by: accel — https://appbrew.tech/
+**Areas:** Company · E-Commerce · Shopify · Mobile App · Mobile Commerce · App Builder · Direct to Consumer · React Native · Push Notifications
+
+## Appbrew on APIs.io
+
+Everything profiled for Appbrew is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/appbrew/](https://apis.io/providers/appbrew/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Appbrew Domain Security](https://apis.io/security/appbrew/appbrew-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://appbrew.com/)
+- [Documentation](https://help.appbrew.com/)
+- [Pricing](https://appbrew.com/pricing)
+- [Sign up](https://apps.shopify.com/mobile-app-builder-appbrew)
+- [Support](https://help.appbrew.com/)
+- [Blog](https://appbrew.com/blogs)
+- [Terms of service](https://appbrew.com/terms-of-use)
+- [Privacy policy](https://appbrew.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 19.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/appbrew/](https://apis.io/providers/appbrew/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Appbrew: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/appbrew/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
